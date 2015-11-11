@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1"
+        android:text="@string/confirm_text"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="3"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_yes"
+            android:layout_weight="1"
+            android:text="@string/yes_text"/>
+
+        <Button
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_no"
+            android:layout_weight="1"
+            android:text="@string/no_text"/>
+    </LinearLayout>
+</LinearLayout>
